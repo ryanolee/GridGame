@@ -24,7 +24,7 @@ class Game():
                 if event.type == QUIT:
                     self.running=False
             pygame.display.flip()
-        #self.pg.quit()
+        self.pg.quit()
         
 
         
